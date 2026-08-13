@@ -18,3 +18,9 @@ jobs:
 
       - name: Show files
         run: ls -la
+
+      - name: currant date
+        run: date
+
+      - name: linux version
+        run: uname -a
